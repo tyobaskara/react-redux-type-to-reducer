@@ -4,7 +4,9 @@ import typeToReducer from 'type-to-reducer';
 const SHOW_MODAL = 'SHOW_MODAL';
 
 const showModalAction = createAction(SHOW_MODAL);
-// showModal: (val) => dispatch(showModalAction(val))
+// mapDispatchToProps = dispatch => ({
+//  showModal: (val) => dispatch(showModalAction(val))
+// })
 // props.showModal(true);
 // equal to dispatch({ type: ACCOUNT_ACTIVATION_HIDE_MODAL, payload: val });
 
